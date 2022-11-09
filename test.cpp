@@ -32,6 +32,42 @@ int main() {
  // cin >> priNum >> segNum ;
  // areaT = (priNum * segNum) / 2 ;
  //  cout << " A area do triangulo é = " << areaT << endl ;   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #include<iostream>
+using namespace std;
+
+
+
+int main(){
+    int a, b;
+    std::cout << "Por favor entre dois numeros: ";
+    std::cin >> a >> b;
+
+    if (a < b) {  
+        cout << b << " É maior que " << a << endl; 
+          cout << a << " É menor que " << b << endl; 
+    }
+
+    if (a > b){ cout << a << " É maior que " << b << endl; 
+    cout << b << " É menor que " << a << endl; 
+    }
+
+    if (a == b){ cout << a << " É igual a " << b << endl; 
+ 
+    }
+
+
+}
+
+  
 
 
   return 0;
