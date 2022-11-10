@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main() {
 
+int main(){
+  
 //int a = 5;
 //int b = 20;
 //int ad = a + b;
@@ -33,20 +34,6 @@ int main() {
  // areaT = (priNum * segNum) / 2 ;
  //  cout << " A area do triangulo é = " << areaT << endl ;   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  #include<iostream>
-using namespace std;
-
-
-
-int main(){
     int a, b;
     std::cout << "Por favor entre dois numeros: ";
     std::cin >> a >> b;
@@ -63,11 +50,6 @@ int main(){
     if (a == b){ cout << a << " É igual a " << b << endl; 
  
     }
-
-
-}
-
-  
 
 
   return 0;
